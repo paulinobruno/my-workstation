@@ -44,3 +44,12 @@ My fresh macOS workstation setup
 - Install [Oh My Zsh](https://ohmyz.sh/)
 - Set `ZSH_THEME` to **muse** (via `~/.zshrc`)
 - Install [SDKMAN!](https://sdkman.io/)
+
+## Append to Config Files
+- `~/.gitconfig` (from [gitconfig](config-files/gitconfig))
+- `~/.vimrc` (from [vimrc](config-files/vimrc))
+
+## Visual Studio Code extensions
+- Atom Keymap
+- EditorConfig for VS Code
+- GitLens
