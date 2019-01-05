@@ -25,3 +25,10 @@ My fresh macOS workstation setup
 - App Exposé: Swipe down with four fingers
 - Lauchpad: OK
 - Show Desktop: OK
+
+## On App Store
+- CopyClip
+- LastPass
+
+## On Safari
+- Install Google Chrome
