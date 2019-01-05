@@ -1,0 +1,37 @@
+[alias]
+    logpretty = log --graph --decorate --pretty=oneline --abbrev-commit
+    ci  = commit
+    br  = branch
+    co  = checkout
+    d = difftool
+    df  = diff
+    lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    st  = status
+    who = shortlog -s -n --
+    up = !git fetch origin && git pull --rebase origin master
+    ir = !git pull --rebase origin master
+    cm = !git checkout master
+    dlb = !git checkout master && git branch | grep -v "master" | xargs git branch -D
+    lb = !git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+    upush = !git fetch origin && git pull --rebase origin master && git push
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = true
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[merge]
+    tool = vimdiff
+[push]
+    default = current
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
