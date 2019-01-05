@@ -12,6 +12,7 @@ My fresh macOS workstation setup
 - Key Repeat: Fast (Max)
 - Delay Until Repeat: Short (Max)
 - Shortcuts: Disable everything, except "Screenshots" and "Spotlight"
+- Shortcuts: Enable Keyboard > **⌘`**
 - Input Sources: U.S. International - PC
 ### Trackpad
 - Tracking speed: 90%
