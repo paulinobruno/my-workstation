@@ -53,3 +53,8 @@ My fresh macOS workstation setup
 - Atom Keymap
 - EditorConfig for VS Code
 - GitLens
+
+## Configure GPG Key (for Github)
+- Download [GPG Suite](https://gpgtools.org/)
+- Get Public/Secret keys
+- Import keys to GPG Suite
