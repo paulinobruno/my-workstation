@@ -29,6 +29,18 @@ My fresh macOS workstation setup
 ## On App Store
 - CopyClip
 - LastPass
+- The Unarchiver
 
-## On Safari
-- Install Google Chrome
+## On Web Browser
+- Install [Google Chrome](https://www.google.com/chrome/)
+- Install [Visual Studio Code](https://code.visualstudio.com/)
+
+## On Terminal
+- Install [Homebrew](https://brew.sh)
+- `$ brew install zsh`
+- Setup `/bin/zsh` on _Preferences > General > Shells opens with_
+- `% git config --global user.name "Bruno Paulino"`
+- `% git config --global user.email paulino.bruno@gmail.com`
+- Install [Oh My Zsh](https://ohmyz.sh/)
+- Set `ZSH_THEME` to **muse** (via `~/.zshrc`)
+- Install [SDKMAN!](https://sdkman.io/)
