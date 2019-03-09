@@ -1,3 +1,7 @@
+[user]
+    signingkey = #{gpg_key}
+[commit]
+    gpgsign = true
 [alias]
     logpretty = log --graph --decorate --pretty=oneline --abbrev-commit
     ci  = commit
