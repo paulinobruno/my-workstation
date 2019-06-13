@@ -35,6 +35,7 @@ My fresh macOS workstation setup
 ## On Web Browser
 - Install [Google Chrome](https://www.google.com/chrome/)
 - Install [Visual Studio Code](https://code.visualstudio.com/)
+- Install [iTerm2](https://www.iterm2.com/)
 
 ## On Terminal
 - Install [Homebrew](https://brew.sh)
