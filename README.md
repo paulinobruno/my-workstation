@@ -55,6 +55,8 @@ My fresh macOS workstation setup
 - Atom Keymap
 - EditorConfig for VS Code
 - GitLens
+- vscode-icons
+- Dracula Official
 
 ## Configure GPG Key (for Github)
 - Download [GPG Suite](https://gpgtools.org/)
