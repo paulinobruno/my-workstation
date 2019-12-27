@@ -64,3 +64,7 @@ My fresh macOS workstation setup
 - Import keys to GPG Suite
 - `% git config --global user.signingkey 12345678` (use last 8 digits of signing key)
 - `% git config --global commit.gpgsign true`
+
+## NodeJS environment
+Must have packages:
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
