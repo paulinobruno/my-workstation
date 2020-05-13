@@ -18,6 +18,9 @@
     dlb = !git checkout master && git branch | grep -v "master" | xargs git branch -D
     lb = !git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
     upush = !git fetch origin && git pull --rebase origin master && git push
+    rbc = !git add . && git rebase --continue
+    rba = rebase --abort
+    rbs = rebase --skip
 [color]
     branch = auto
     diff = auto
