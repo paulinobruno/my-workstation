@@ -1,0 +1,26 @@
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/paulinobruno/.sdkman"
+[[ -s "/Users/paulinobruno/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/paulinobruno/.sdkman/bin/sdkman-init.sh"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export MY_WORKSTATION_DIR="$HOME/Projects/Personal/my-workstation"
+[[ -s "$MY_WORKSTATION_DIR/script-files/shell/functions.zsh" ]] && source "$MY_WORKSTATION_DIR/script-files/shell/functions.zsh"
+
+export JOB_WORKSTATION_DIR="$HOME/Projects/Personal/job-workstation"
+[[ -s "$JOB_WORKSTATION_DIR/script-files/shell/functions.zsh" ]] && source "$JOB_WORKSTATION_DIR/script-files/shell/functions.zsh"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export RVM_DIR="$HOME/.rvm"
+export PATH="$PATH:$RVM_DIR/bin"
+[[ -s "$RVM_DIR/scripts/rvm" ]] && source "$RVM_DIR/scripts/rvm"
+
+export WORKSPACE="$HOME/Projects/$$COMPANY_NAME"
+
+# AWS Setup
+export AWS_VAULT_BACKEND=file
+export AWS_SESSION_TOKEN_TTL=8h
+export AWS_ASSUME_ROLE_TTL=8h
+export AWS_FEDERATION_TOKEN_TTL=8h
