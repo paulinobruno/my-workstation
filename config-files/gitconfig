@@ -21,7 +21,7 @@
     rbc = !git add . && git rebase --continue
     rba = rebase --abort
     rbs = rebase --skip
-    bind = "!f() { git branch --set-upstream-to=origin/$1 $1; }; f"
+    recreate = "!f() { git cm && git br -D $1 && git co -b $1 && git branch --set-upstream-to=origin/$1 $1; }; f"
 [color]
     branch = auto
     diff = auto
