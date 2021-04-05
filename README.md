@@ -68,3 +68,6 @@ My fresh macOS workstation setup
 ## NodeJS environment
 Must have packages:
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+
+## Other stuff
+- Install [Hyperfine](https://github.com/sharkdp/hyperfine) for benchmarking.
