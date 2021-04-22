@@ -28,8 +28,7 @@ My fresh macOS workstation setup
 - Show Desktop: OK
 
 ## On App Store
-- CopyClip
-- LastPass
+- Clipy
 - The Unarchiver
 
 ## On Web Browser
