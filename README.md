@@ -11,7 +11,7 @@ My fresh macOS workstation setup
 ### Keyboard
 - Key Repeat: Fast (Max)
 - Delay Until Repeat: Short (Max)
-- Shortcuts: Disable everything, except "Screenshots" and "Spotlight"
+- Shortcuts: Disable everything, except "Screenshots", "Spotlight", and "Move focus to next window" under "Keyboard"
 - Shortcuts: Enable Keyboard > **⌘`**
 - Input Sources: U.S. International - PC
 ### Trackpad
@@ -26,6 +26,10 @@ My fresh macOS workstation setup
 - App Exposé: Swipe down with four fingers
 - Lauchpad: OK
 - Show Desktop: OK
+### Acessibility
+- Pointer Control
+  - Track pad options
+    - Enable dragging: with three fingers
 
 ## On App Store
 - Clipy
