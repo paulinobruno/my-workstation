@@ -32,13 +32,13 @@ My fresh macOS workstation setup
     - Enable dragging: with three fingers
 
 ## On App Store
-- Clipy
 - The Unarchiver
 
 ## On Web Browser
 - Install [Google Chrome](https://www.google.com/chrome/)
 - Install [Visual Studio Code](https://code.visualstudio.com/)
 - Install [iTerm2](https://www.iterm2.com/)
+- Install [Maccy](https://github.com/p0deje/Maccy)
 
 ## On Terminal
 - Install [Homebrew](https://brew.sh)
