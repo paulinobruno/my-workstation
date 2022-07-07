@@ -1,4 +1,6 @@
 [user]
+    name = Bruno Paulino
+    email = paulino.bruno@gmail.com
     signingkey = #{gpg_key}
 [commit]
     gpgsign = true
