@@ -14,16 +14,13 @@
     lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     st  = status
     who = shortlog -s -n --
-    up = !git fetch -p origin && git pull --rebase origin master
-    ir = !git pull --rebase origin master
-    cm = !git checkout master
-    dlb = !git checkout master && git branch | grep -v "master" | xargs git branch -D
+    up = !git fetch -p origin && git ir
+    ir = !((git br | grep master) && git pull --rebase origin master) || ((git br | grep main) && git pull --rebase origin main)
+    cm = !((git br | grep master) && git co master) || ((git br | grep main) && git co main)
     lb = !git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
-    upush = !git fetch origin && git pull --rebase origin master && git push
     rbc = !git add . && git rebase --continue
     rba = rebase --abort
     rbs = rebase --skip
-    recreate = "!f() { git cm && git br -D $1 && git co -b $1 && git branch --set-upstream-to=origin/$1 $1; }; f"
 [color]
     branch = auto
     diff = auto
