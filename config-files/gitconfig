@@ -3,7 +3,7 @@
     email = paulino.bruno@gmail.com
     signingkey = #{gpg_key}
 [commit]
-    gpgsign = true
+    gpgsign = false
 [alias]
     logpretty = log --graph --decorate --pretty=oneline --abbrev-commit
     ci  = commit
@@ -45,4 +45,11 @@
 [init]
     defaultBranch = master
 [url "git@github.com:"]
-    insteadOf = https://github.com/
+	insteadOf = https://github.com/
+
+[credential "https://github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
